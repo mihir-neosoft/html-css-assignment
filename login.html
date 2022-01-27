@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Insight</title>
+</head>
+
+<body id="loginbody">
+    <header>
+        <nav id="topnavbar">
+            <section id="topnavleft">
+                <h2>Insight</h2>
+                <p><i>Follow your Dream</i></p>
+            </section>
+            <section id="topnavright">
+                <ul>
+                    <li><a href="login.html"><img src="Images/icons/login.png" alt="img" class="topnavicons"> Login</a></li>
+                    <li><a href="signup.html"><img src="Images/icons/sign up.png" alt="img" class="topnavicons"> Sign up</a></li>
+                    <li><a href="index.html"><img src="Images/icons/click.png" alt="img" class="topnavicons"> How it works</a></li>
+                </ul>
+            </section>
+        </nav>
+    </header>
+    <main>
+        <div id="loginmain">
+            <section id="logincard">
+                <h2>Login</h2>
+                <div id="loginform">
+                    <img src="Images/Login.png" alt="login img" height="160px">
+                    <form action="index.html">
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="name">Username</label>
+                            </div>
+                            <div class="col-75">
+                                <input required type="text" id="name" placeholder="Enter username">
+                            </div><br>
+                            <span class="errorspan" id="nameE"></span>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="email">Password</label>
+                            </div>
+                            <div class="col-75">
+                                <input required type="password" id="password" placeholder="Enter Password">
+                            </div><br>
+                            <span class="errorspan" id="emailE"></span>
+                        </div>
+                        <div class="row">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer id="loginfooter">
+        <p>@2021 mihir adelkar</p>
+        <p>privacy policy . terms of service</p>
+    </footer>
+</body>
+
+</html>
